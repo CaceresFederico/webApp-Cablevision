@@ -1,0 +1,98 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+video{
+    /* Utilizado para hacer que el video ocupe el 100% x 100% de la ventana */
+    position: fixed;
+    min-width: 90%;
+    min-height: 100%;
+    /* Utilizado para lograr centrar el video */
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    z-index: -1;
+}
+nav{
+    /* Transparencia */
+    background: rgba(0,0,0, 0.5);
+}
+a:hover{
+    background-color: red;
+}
+.card{
+    background-color: #309F97;
+    border: none;
+    color: white;
+}
+.list-group{
+    padding: 10px ;
+}
+.list-group-item{
+    background-color: #183136;
+    color: white;
+}
+.jumbotron{
+    background:rgba(0,0,0, 0.8);
+    border: 2px solid white;
+    margin-top: 10%;
+}
+.footer{
+    min-width: 100%;
+    background-color: black;
+    padding-top: 12px;
+    color: white;
+    text-align: center;
+}
+.lead{
+    font-size: 14px;
+}
+
+/* Mas informacion */
+#div__background__information{
+    /* Utilizado para lograr que el height ocupe el 100% 
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    */
+    background-color:#45B0C4;
+}
+#atencionLogo{
+    max-width: 40%;
+}
+#relojLogo{
+    max-width: 20%;
+}
+/* Mi cuenta */
+.jumbotron{
+    padding: 2em;
+}
+label{
+    color: white;
+}
+.login{
+    margin-bottom: 10%;
+}
+#loginLogo{
+    margin-bottom: 20px;
+}
+
+
+/* MEDIA QUERIES */
+@media(min-width: 320px){
+    .card{
+        margin-bottom: 10%;
+    }
+}
+@media (max-width:768px){
+    p{
+        font-size: 12px;
+    }
+}
+@media (max-width: 991px){
+    p{
+        font-size: 14px;
+    }
+
+}
